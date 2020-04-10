@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/symptomText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/symptom"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/symptomImgTop1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="CORONAVIRUS (COVID-19) SYMPTOMS"
+                android:textSize="25sp"
+                android:paddingTop="10dp"
+                android:paddingStart="15sp"
+                android:paddingEnd="15sp"
+                android:paddingBottom="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@color/color_symptom"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                app:layout_constraintTop_toBottomOf="@+id/symptomText"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <ImageView
+                android:id="@+id/symptomImg1"
+                android:layout_width="190dp"
+                android:layout_height="250dp"
+                android:src="@drawable/symptom1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/symptomImgTop1"/>
+
+            <ImageView
+                android:id="@+id/symptomImg2"
+                android:layout_width="190dp"
+                android:layout_height="250dp"
+                android:src="@drawable/symptom2"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/symptomImgTop1"/>
+
+            <ImageView
+                android:id="@+id/symptomImg3"
+                android:layout_width="190dp"
+                android:layout_height="250dp"
+                android:src="@drawable/symptom3"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/symptomImg1"/>
+
+            <ImageView
+                android:id="@+id/symptomImg4"
+                android:layout_width="190dp"
+                android:layout_height="250dp"
+                android:src="@drawable/symptom4"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/symptomImg2"/>
+
+            <ImageView
+                android:id="@+id/symptomImg5"
+                android:layout_width="190dp"
+                android:layout_height="250dp"
+                android:src="@drawable/symptom5"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="30dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/symptomImg3"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+            <ImageView
+                android:id="@+id/symptomImg6"
+                android:layout_width="190dp"
+                android:layout_height="250dp"
+                android:src="@drawable/symptom6"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/symptomImg4"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

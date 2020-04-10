@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Corona Virus Updates</string>
+
+    <string name="quote">#IndiaFightsCorona</string>
+
+    <string name="slide1_text">Each one of us has the power to help prevent the spread of the <b>Coronavirus pandemic</b> in India.</string>
+    <string name="slide1_img_content">Result of not being aware.</string>
+    <string name="slide1_text2">Would you like to be informed about the status of <b>Coronavirus pandemic</b> in your area?</string>
+
+    <string name="slide2_text">This App enables you to update yourself with the advisories and information issued by <b>Indian Government</b>.</string>
+    <string name="slide2_img_content">You should be aware.</string>
+    <string name="slide2_text2">This App uses information provided by Government on <b>MyGov</b> website, <b>MoHFW</b> website, <b>ICMR</b> website, <b>NCDC</b> website, <b>NHM</b> website and other government websites.</string>
+
+    <string name="slide3_text">The App alerts are accompanied by instructions on how to self-isolate and what to do in case you develop symptoms that may need help and support.</string>
+    <string name="slide3_img_content">Prevention is better than cure.</string>
+    <string name="slide3_text2">You will be alerted with notification to alert you to <b>wash your hands</b> regularly.</string>
+
+    <string name="slide4_text">With this App, you can protect yourself, your family and friends, and help our country <b>India</b> in the effort to fight <b>COVID-19</b></string>
+    <string name="slide4_img_content">Lets stop Coronavirus.</string>
+    <string name="slide4_text2">Kindly <b>Register</b> to our app to get all necessary with a <b>badge</b> for being a member of this app. Do <b>Share</b> this app to your relatives and others.</string>
+    <string name="registerBtn">REGISTER NOW</string>
+
+    <string name="register_mobile">Enter Mobile Number</string>
+    <string name="register_mobile2">Mobile Number</string>
+    <string name="submitBtn">Submit</string>
+    <string name="country_code">+91</string>
+    <string name="register_otp">Enter OTP</string>
+    <string name="register_otp2">OTP</string>
+
+    <string name="content_myth">There is a lot of false information around. <b>These are the facts.</b> People of all ages CAN be infected by the coronavirus. Older people, and people with pre-existing medical conditions
+        (such as <b>asthma, diabetes, heart disease</b>) appear to be more vulnerable to becoming severely ill with the virus.</string>
+
+    <string name="content_fact_1">Cold weather and snow <b>CANNOT</b> kill the CoronaVirus.</string>
+    <string name="content_fact_2">Hand dryers are <b>NOT</b> effective in killing the coronavirus.</string>
+    <string name="content_fact_3">There is <b>NO</b> evidence that regularly rinsing the nose with saline has protected people from infection with the coronavirus.</string>
+    <string name="content_fact_4">The coronavirus <b>CAN</b> be transmitted in areas with hot and humid climates.</string>
+    <string name="content_fact_5">Ultraviolet light <b>SHOULD NOT</b> be used for sterilization and can cause skin irritation.</string>
+    <string name="content_fact_6">Garlic is healthy but there is <b>NO</b> evidence from the current outbreak that eating garlic has protected people from the coronavirus</string>
+    <string name="content_fact_7">The coronavirus <b>CANNOT</b> be transmitted through mosquito bites.</string>
+    <string name="content_fact_8">Thermal scanners CAN detect if people have a fever but <b>CANNOT</b> detect whether or not someone has the coronavirus.</string>
+    <string name="content_fact_9">Antibiotics <b>DO NOT</b> work against viruses, antibiotics only work against bacteria.</string>
+    <string name="content_fact_10">There is <b>NO</b> evidence that companion animals/pets such as dogs or cats can transmit the coronavirus.</string>
+    <string name="content_fact_11">Spraying alcohol or chlorine all over your body <b>WILL NOT</b> kill viruses that have already entered your body.</string>
+    <string name="content_fact_12">To date, there is <b>NO</b> specific medicine recommended to prevent or treat the coronavirus.</string>
+    <string name="content_fact_13">Taking a hot bath <b>DOES NOT</b> prevent the coronavirus.</string>
+    <string name="content_fact_14">Vaccines against pneumonia, such as pneumococcal vaccine and Haemophilus influenzae type b (Hib) vaccine, <b>DO NOT</b> provide protection against the coronavirus.</string>
+
+
+    <string name="overview">Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
+        \n\nMost people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover 
+        without requiring special treatment. Older people, and those with underlying medical problems like cardiovascular 
+        disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.  
+        \n\nThe best way to prevent and slow down transmission is be well informed about the COVID-19 virus, the disease it 
+        causes and how it spreads. Protect yourself and others from infection by washing your hands or using an alcohol 
+        based rub frequently and not touching your face.  
+        \n\nThe COVID-19 virus spreads primarily through droplets of saliva or discharge from the nose when an infected 
+        person coughs or sneezes, so it’s important that you also practice respiratory etiquette (for example, by coughing
+        into a flexed elbow). 
+        \n\nAt this time, there are no specific vaccines or treatments for COVID-19. However, there are many ongoing clinical
+        trials evaluating potential treatments. WHO will continue to provide updated information as soon as clinical findings 
+        become available. 
+        \n\nStay informed.</string>
+
+    <string name="prevention">To prevent infection and to slow transmission of COVID-19, do the following:
+        \n\n 1.  Wash your hands regularly with soap and water, or clean them with alcohol-based hand rub.
+        \n\n 2.  Maintain at least 1 metre distance between you and people coughing or sneezing.
+        \n\n 3.  Avoid touching your face.
+        \n\n 4.  Cover your mouth and nose when coughing or sneezing.
+        \n\n 5.  Stay home if you feel unwell.
+        \n\n 6.  Refrain from smoking and other activities that weaken the lungs.
+        \n\n 7.  Practice physical distancing by avoiding unnecessary travel and staying away from large groups of people.</string>
+
+    <string name="symptom">
+        The COVID-19 virus affects different people in different ways.  COVID-19 is a respiratory disease and most infected people will develop mild to moderate symptoms and recover without requiring special treatment.  People who have underlying medical conditions and those over 60 years old have a higher risk of developing severe disease and death.
+
+        \n\nCommon symptoms include:
+
+        \n\n 1.  fever
+        \n 2.  tiredness
+        \n 3.  dry cough
+
+        \n\nOther symptoms include:
+
+        \n\n 1.  shortness of breath
+        \n 2.  aches and pains
+        \n 3.  sore throat
+        \n 4.  and very few people will report diarrhoea, nausea or a runny nose.
+
+        \n\nPeople with mild symptoms who are otherwise healthy should self-isolate and contact their medical provider or a COVID-19 information line for advice on testing and referral.
+
+        \n\nPeople with fever, cough or difficulty breathing should call their doctor and seek medical attention.
+    </string>
+
+</resources>

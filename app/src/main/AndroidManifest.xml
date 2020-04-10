@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.coronavirusupdates">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TestCentersLocation"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".Profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SymptomsChecker"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Advisory"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PermissionActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Helpline"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StatewiseStats"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StateHelpline"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Splash"
+            android:theme="@style/AppTheme.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StateUtUpdates.PuducherryUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.LakshadweepUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.LadakhUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.JammuAndKashmirUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.DelhiUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.DadraAndNagarHaveliAndDamanAndDiuUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.ChandigarhUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.AndamanAndNicobarIslandsUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.WestBengalUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.UttarPradeshUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.UttarakhandUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.TripuraUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.TelenganaUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.TamilNaduUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.SikkimUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.RajasthanUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.PunjabUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.OdishaUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.NagalandUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.MizoramUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.MeghalayaUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.ManipurUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.MaharashtraUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.MadhyaPradeshUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.KeralaUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.KarnatakaUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.JharkhandUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.HimachalPradeshUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.HaryanaUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.GujratUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.GoaUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.ChhattisgarhUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.BiharUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.AssamUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.ArunachalPradeshUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".StateUtUpdates.AndhraPradeshUpdate"
+            android:theme="@style/AppTheme.PopTheme" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:theme="@style/AppTheme.Fullscreen" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+       <activity
+            android:name=".testCenters.Puducherry"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testCenters.Ladakh"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testCenters.Jammu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testCenters.Delhi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testCenters.Chandigarh"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testCenters.Andaman"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testCenters.WestBengal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testCenters.UttarPradesh"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testCenters.Tripura"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testCenters.Telengana"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testCenters.Tamilnadu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testCenters.Rajasthan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testCenters.Punjab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testCenters.Odisha"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testCenters.Meghalaya"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testCenters.Manipur"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testCenters.Maharashtra"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testCenters.MadhyaPradesh"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testCenters.Kerala"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testCenters.Karnataka"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testCenters.Jharkhand"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testCenters.Himachal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testCenters.Haryana"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testCenters.Gujrat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testCenters.Chhattisgarh"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testCenters.Bihar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testCenters.Assam"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testCenters.AndhraPradesh"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+    </application>
+
+</manifest>
