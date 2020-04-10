@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.nav_share:
                         drawerLayout.closeDrawers();
                         ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
-                        String text = "https://drive.google.com/open?id=1jLR1T-lxNrRyPt6XOoilHW3GpqPLCN1p";
+                        String text = "https://drive.google.com/file/d/19svpApfzqgVqGRONTia2IqZWY_1svh5E/view?usp=drivesdk";
                         ClipData clip = ClipData.newPlainText("appLink", text);
                         clipboard.setPrimaryClip(clip);
                         Toast.makeText(getApplicationContext(),"Google Drive App Link has been copied!",Toast.LENGTH_SHORT).show();
